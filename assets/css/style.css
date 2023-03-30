@@ -175,7 +175,7 @@ h6 p {
 .card3 {
 	width: 225px;
 	border-radius: 5px;
-	padding: 30px 40px 5px;
+	padding: 25px 40px 5px;
 	background-color: #ffffff;
 	color: black;
 	margin: auto;
@@ -228,19 +228,13 @@ h6 p {
 
 /* cards */
 
-.card4,
-.card5,
-.card6,
-.card7 {
+.card4 {
 	background-color: #ffffff;
 	color: #212840;
 	text-align: left;
 	display: flex;
 	flex-direction: column;
 }
-
-/* .card4-img1 {
-} */
 
 .card4-text {
 	width: 80%;
@@ -292,9 +286,9 @@ h6 p {
 .fas {
 	font-size: 70px;
 	margin: auto;
-	border-radius: 50%;
+	/* border-radius: 50%; */
 	color: #00A0C1;
-	background-color: #fff;
+	/* background-color: #fff; */
 }
 
 /* rc-4 */
@@ -327,11 +321,19 @@ h6 p {
 	display: flex;
 	align-items: center;
 	flex-direction: row;
+	gap: 12px;
+	align-items: center;
 }
 
-.vector {
-	width: 29px;
-	height: 29px;
+.text-sec {
+	display: flex;
+	gap: 3px;
+	flex-direction: column;
+}
+
+.text-sec h5,
+.text-sec h6 {
+	margin: 0;
 }
 
 /* 5th feature */
@@ -507,8 +509,26 @@ input {
 	line-height: 2;
 }
 
-/* .card-contact i {
+.card-contact i {
 	width: 22px;
 	height: 22px;
-	/* color: #8EC2F2; */
-} */
+	color: #8EC2F2;
+	font-size: 20px;
+	background-color: #16697A;
+}
+
+.media-text {
+	text-align: left;
+	padding: 15px 25px;
+}
+
+.media-text p {
+	width: 261px;
+	line-height: 1;
+}
+
+.media-logo i {
+	width: 100px;
+	justify-content: space-between;
+	padding-top: 20px;
+}
