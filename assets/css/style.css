@@ -2,53 +2,58 @@ body {
   background-color: #252B42;
 	color: #ffffff;
 	font-family: Montserrat;
-	margin: 0;
+	margin: auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.desktop-nav {
+  display: none;
 }
 
 .navbar {
-	width: 414px;
-	height: 500px;
+  background-color: #252B42;
+  width: 100%;
 	margin: auto;
+}
+
+.nav-icons {
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+  flex-direction: row;
+	font-weight: 700;
+}
+.nav-icons li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+.mobile-nav {
+  width: 30%;
+	margin: auto;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 2.5;
+  list-style-type: none;
+  padding: 12% 0;
+}
+
+a {
+	color: #ffffff;
+  text-decoration: none;
 }
 
 .home:hover,
 .product:hover,
 .pricing:hover,
 .contact:hover {
-	text-decoration: underline #0d99ff;
-}
-
-.nav-menu {
-	float: top;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	font-size: 24px;
-	font-weight: 700;
-}
-
-.collapse-navbar {
-	width: 123px;
-	height: 270px;
-	margin: auto;
-	font-size: 25px;
-	font-weight: 700;
-	line-height: 2.5;
-}
-
-.navbar-nav {
-	list-style-type: none;
-	padding: 0;
-	margin: 70px 0 0;
-}
-
-a {
-	color: #ffffff;
-}
-
-.navbar-nav a {
-	text-decoration: none;
-	/* display: flex; */
+  text-decoration: underline #0d99ff;
 }
 
 h2 {
@@ -81,7 +86,7 @@ h6 p {
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
-	width: 414px;
+	width: 100%;
 }
 
 .row {
@@ -89,24 +94,23 @@ h6 p {
 	flex-direction: column;
 	height: fit-content;
 	gap: 20px;
-	/* display: flex; */
 }
 
 .lc-1 {
 	text-align: center;
-	padding: 70px 0 0px;
+	padding: 60px 0 0px;
 }
 
 .lc-1 h1 {
-	width: 330px;
+	width: 70%;
 	margin: auto;
 	padding-bottom: 25px;
 }
 
 .lc-1 h4 {
-	width: 250px;
+	width: 60%;
 	margin: auto;
-	padding-bottom: 25px;
+	padding-bottom: 30px;
 }
 
 .button-row {
@@ -139,29 +143,32 @@ h6 p {
 	transition: 0.5s;
 }
 
-.rc-1 {
-	width: 409px;
+.rc1-image {
+  background-image: url("../images/agent-v 1 (2).png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 75vh;
 }
 
 /* all features */
 
 .feature-body {
-	padding: 100px 0 70px;
+	padding: 30% 0 15%;
 	text-align: center;
 }
 
 /* 2nd feature */
 
 .feature2-text h2 {
-  width: 260px;
+  width: 65%;
   margin: auto;
   padding-bottom: 25px;
 }
 	
 .feature2-text p {
-  width: 250px;
+  width: 60%;
   margin: auto;
-  padding-bottom: 35px;
+  padding-bottom: 18%;
 }
 
 /* for desktop view  */
@@ -173,13 +180,13 @@ h6 p {
 
 .card1,
 .card3 {
-	width: 225px;
+  width: 60%;
 	border-radius: 5px;
-	padding: 25px 40px 5px;
+	padding: 20px 35px 5px;
 	background-color: #ffffff;
 	color: black;
 	margin: auto;
-	margin-bottom: 22px;
+	margin-bottom: 24px;
 }
 .card1 i,
 .card3 i {
@@ -188,13 +195,13 @@ h6 p {
 }
 
 .card2 {
-	width: 225px;
+  width: 60%;
 	border-radius: 5px;
-	padding: 30px 40px 5px;
+	padding: 20px 35px 5px;
 	background-color: #00A0C1;
 	color: black;
 	margin: auto;
-	margin-bottom: 22px;
+	margin-bottom: 24px;
 }
 
 .card2 i {
@@ -205,13 +212,13 @@ h6 p {
 /* 3rd feature */
 
 .feature3-text h2 {
-  width: 180px;
+  width: 40%;
   margin: auto;
   padding-bottom: 25px;
 }
 	
 .feature3-text p {
-  width: 250px;
+  width: 60%;
   margin: auto;
   padding-bottom: 35px;
 }
@@ -219,7 +226,7 @@ h6 p {
 /* row3-cards */
 
 .row3-cards {
-	width: 50%;
+	width: 55%;
 	margin: auto;
 	display: flex;
 	flex-direction: column;
@@ -232,36 +239,32 @@ h6 p {
 	background-color: #ffffff;
 	color: #212840;
 	text-align: left;
+  margin: 0;
 	display: flex;
 	flex-direction: column;
 }
 
-.card4-text {
-	width: 80%;
-}
-
 .card4 h5 {
-	width: 130px;
-	padding: 16px 0 1px 24px;
+  width: 55%;
+  padding-left: 16px;
 	font-weight: 700;
 }
 
 .card4 p {
-	padding: 0 0 18px 25px;
-	margin: 0 auto;
-	width: 175px;
+  padding-left: 16px;
+  width: 78%;
 }
 
 /* 4th feature */
 
 .feature4-text h2 {
-  width: 308px;
+  width: 70%;
   margin: auto;
   padding-bottom: 25px;
 }
 	
 .feature4-text p {
-  width: 255px;
+  width: 60%;
   margin: auto;
   padding-bottom: 35px;
 }
@@ -277,7 +280,7 @@ h6 p {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	width: 325px;
+  width: 80%;
 	margin: auto;
 	height: 400px;
 	margin-bottom: 25px;
@@ -299,19 +302,19 @@ h6 p {
 }
 
 .rc4-content h2 {
-  width: 324px;
+  width: 78%;
   margin: auto;
   padding-bottom: 25px;
 }
 	
 .rc4-content p {
-  width: 330px;
+  width: 78%;
   margin: auto;
   padding-bottom: 25px;
 }
 
 .card6 {
-	width: 329px;
+  width: 80%;
 	text-align: left;
 	margin: auto;
 	margin-bottom: 30px;
@@ -322,7 +325,6 @@ h6 p {
 	align-items: center;
 	flex-direction: row;
 	gap: 12px;
-	align-items: center;
 }
 
 .text-sec {
@@ -344,32 +346,38 @@ h6 p {
 }
 
 .brand-items {
-	width: 153px;
+  width: 70%;
 	margin: auto;
+  padding-bottom: 30px;
 }
 
 .img-brand {
-	padding: 28px 0 ;
-	width: 149px;
+	padding: 28px 0;
+  margin: auto;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
 }
 
 .subcribers {
-	width: 414px;
+  width: 100%;
 	background-color: #16697A;
 	padding: 25px 0 35px;
 }
 
 .subcribers h3 {
-	width: 250px;
+  width: 60%;
 	margin: auto;
+  padding-bottom: 30px;
 }
 
 .btn4,
 input {
-	padding: 14px 16px;
+	padding: 18px 16px;
 	border-radius: 5px;
 	border: none;
 	margin-top: 30px;
+  margin: auto;
 }
 
 input {
@@ -387,19 +395,19 @@ input {
 /* 6th feature */
 
 .contact-text h2 {
-  width: 257px;
+  width: 70%;
   margin: auto;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 	
 .contact-text p {
-  width: 264px;
+  width: 60%;
   margin: auto;
   padding-bottom: 35px;
 }
 
 .row6-cards {
-	width: 310px;
+  width: 80%;
 	margin: auto;
 }
 
@@ -407,39 +415,42 @@ input {
 	padding: 35px 40px;
 	background-color: #ffffff;
 	color: black;
-	margin-bottom: 22px;
+	margin-bottom: 25px;
+  align-items: center;
 } 
 
 .card7 .img-brand {
-	width: 70px;
-	height: 70px;
+  width: 25%;
 	color: #ffA62B;
 	margin: auto;
 }
 
 .card-text {
 	text-align: center;
-	width: 221px;
+  width: 65%;
+  font-size: 20px;
+  margin: auto;
 	line-height: 0;
+
 }
 
 .card7 .btn {
 	background-color: #ffffff;
-	padding: 10px;
+	padding: 12px;
 	border-radius: 3px;
 	border: 1.5px solid #ffA62B;
 	color: #ffA62B;
-	width: 130px;
+  width: 50%;
 	margin: auto;
 }
 
 .card8 .btn6 {
 	background-color: #00A0C1;
-	padding: 10px;
+	padding: 12px;
 	border-radius: 3px;
 	border: 1px solid #ffffff;
 	color: #ffffff;
-	width: 130px;
+  width: 50%;
 	margin: auto;
 	margin-top: 15px;
 }
@@ -451,8 +462,8 @@ input {
 }
 
 .card8 i {
-	width: 72px;
-	height: 72px;
+  width: 21%;
+	height: 21%;
 	background-color: #00A0C1;
 	border: none;
 	color: #ffffff;
@@ -466,25 +477,25 @@ input {
 }
 
 .consultant {
-	width: 239px;
+	width: 60%;
 	margin: auto;
 }
 
 .consultant h2 {
-  width: 229px;
+  width: 40%;
   padding-bottom: 25px;
 }
 	
 .consultant p {
-  width: 220px;
+  width: 40%;
   padding-bottom: 35px;
 }
 
 .btn8 {
 	background-color: #ffA62B;
 	color: #ffffff;
-	width: 150px;
-	padding: 16px 14px;
+  width: 50%;
+	padding: 16px 20px;
 	border: none;
 	border-radius: 3px;
 	margin-bottom: 30px;
@@ -498,7 +509,7 @@ input {
 }
 
 .card {
-	width: 239px;
+  width: 60%;
 	margin: auto;
 }
 
@@ -510,25 +521,63 @@ input {
 }
 
 .card-contact i {
-	width: 22px;
-	height: 22px;
+  width: 15%;
+	height: 15%;
 	color: #8EC2F2;
-	font-size: 20px;
+	font-size: 24px;
 	background-color: #16697A;
+}
+
+.contact-icon {
+  display: flex;
+	align-items: center;
+	flex-direction: row;
+	gap: 12px;
+  width: 45%;
+  line-height: 1;
 }
 
 .media-text {
 	text-align: left;
 	padding: 15px 25px;
-}
-
-.media-text p {
-	width: 261px;
-	line-height: 1;
+  width: 80%;
+  margin: auto;
+	line-height: 1px;
 }
 
 .media-logo i {
-	width: 90px;
-	justify-content: space-between;
 	padding-top: 20px;
+  font-size: 24px;
+  width: 10%;
+}
+
+.fa-facebook-square {
+  color: #355BF5;
+}
+
+.fa-instagram {
+  color: #891313;
+}
+
+.fa-twitter {
+  color: #00A0C1;
+}
+
+.fa-youtube-play {
+  color: #f10f0f;
+}
+
+hr {
+  width: 90%;
+  border: 1% thin #38434a;
+}
+
+@media screen and (min-width:768px) {
+  .rc1-image {
+    background-image: url("../images/agent-v 1 (1).png");
+  }
+
+  .mobile-nav {
+    display: none;
+  }
 }

@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Capgemen-project</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -23,27 +23,32 @@
 	<div class="header">
 		<!-- start navbar -->
 		<div class="navbar">
-		<div class="nav-menu">
-			<h5>Capgemen</h5>
-      <a href="#"><i class="fa fa-search"></i></a>
-		<a href="#"><i class="fa fa-shopping-cart"></i></a>
-		<div class="menu-bar"
-		onclick="myFunction(this)">
-		<button class="btn"><i class="fa fa-bars"></i></button></div>
-	</div>
-		<div class="collapse-navbar">
-      <!-- links -->
-      <ul class="navbar-nav">
+		<nav>
+			<h5><span>Capgemen</span></h5>
+
+			<ul class="desktop-nav">
       	<li><a class="home" href="#home">Home</a></li>
       	<li><a class="product" href="#product">Product</a></li>
       	<li><a class="pricing" href="#pricing">Pricing</a></li>
       	<li><a class="contact" href="#contact">Contact</a></li>
       </ul>
-		</div>
-		<!-- end navbar -->
+
+			<ul class="nav-icons">
+      	<li><a href="#"><i class="fa fa-search"></i></a></li>
+      	<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+      	<li><button class="btn"><i class="fa fa-bars"></i></button></li>
+      </ul>
+		</nav>
+
+		<ul class="mobile-nav">
+			<li><a class="home" href="#home">Home</a></li>
+			<li><a class="product" href="#product">Product</a></li>
+			<li><a class="pricing" href="#pricing">Pricing</a></li>
+			<li><a class="contact" href="#contact">Contact</a></li>
+		</ul>
+	<!-- end navbar -->
 	</div>
-	
-		<!-- header row -->
+
 		<!-- background image -->
 	<div class="bg-image" id="blueart">
 		<div class="row">
@@ -56,18 +61,14 @@
 					<button class="btn btn1">Get Quote Now</button>
         <button class="btn btn2">Learn More</button>
 				</div>
-      	<!-- end left-column1 -->
       </div>
-
-      	<!-- start right-column1 -->
-      	<div>
-      		<img class="rc-1" src="./assets/images/agent-v 1 (2).png" alt="agent">
-        <!-- end right -->
-      </div>
+      	<!--right-column1 -->
+      	<div class="rc1-image">
+        </div>
 		<!-- end header row -->
 	</div>
-	<!-- end header -->
 </div>
+	<!-- end header -->
 </div>
 
 <!-- 2nd feature  -->
@@ -212,7 +213,6 @@
 	</div>
 	<!-- end 5th feature -->
 </div>
-<hr>
 
 <!-- 6th feature -->
 <div class="feature-body">
@@ -315,11 +315,11 @@
 			<div class="card">
 				<h5>Get in Touch</h5>
 				<div class="card-contact">
-					<div><i class='fas fa-phone-alt'></i>
+					<div class="contact-icon"><i class='fas fa-phone-alt'></i>
 					<h6>(480) 555-0103</h6></div>
-					<div><i class='fas fa-map-marker-alt'></i>
+					<div class="contact-icon"><i class='fas fa-map-marker-alt'></i>
 					<h6>4517 Washington Ave.</h6></div>
-					<div><i class="fa fa-send-o"></i>
+					<div class="contact-icon"><i class="fa fa-send-o"></i>
 					<h6>debra.holt@example.com</h6></div>
 				</div>
 			</div>
