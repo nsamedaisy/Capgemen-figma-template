@@ -1,5 +1,4 @@
 body {
-  background-color: #252B42;
 	color: #ffffff;
 	font-family: Montserrat;
 	margin: auto;
@@ -10,6 +9,9 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   padding: 0 20px;
+}
+nav h5 {
+  font-size: 20px;
 }
 
 .desktop-nav {
@@ -31,7 +33,9 @@ nav {
 }
 .nav-icons li {
   list-style-type: none;
-  padding: 0 10px;
+  padding: 0 16px;
+  font-size: 16px;
+  font-weight: 0;
 }
 
 .mobile-nav {
@@ -155,6 +159,7 @@ h6 p {
 .feature-body {
 	padding: 30% 0 15%;
 	text-align: center;
+  background-color: #252B42;
 }
 
 /* 2nd feature */
@@ -168,7 +173,7 @@ h6 p {
 .feature2-text p {
   width: 60%;
   margin: auto;
-  padding-bottom: 18%;
+  padding-bottom: 10%;
 }
 
 /* for desktop view  */
@@ -343,6 +348,7 @@ h6 p {
 .feature-body1 {
 	padding: 70px 0 0px;
 	text-align: center;
+  background-color: #252B42;
 }
 
 .brand-items {
@@ -474,6 +480,7 @@ input {
 .footer-body {
 	text-align: left;
 	padding: 40px 0;
+  background-color: #252B42;
 }
 
 .consultant {
@@ -534,7 +541,6 @@ input {
 	flex-direction: row;
 	gap: 12px;
   width: 45%;
-  line-height: 1;
 }
 
 .media-text {
@@ -567,17 +573,209 @@ input {
   color: #f10f0f;
 }
 
-hr {
-  width: 90%;
-  border: 1% thin #38434a;
-}
-
-@media screen and (min-width:768px) {
-  .rc1-image {
-    background-image: url("../images/agent-v 1 (1).png");
-  }
-
+@media screen and (min-width:769px) {
   .mobile-nav {
     display: none;
+  }
+
+  .navbar {
+    background-color: #1a5783;
+  }
+  
+  .desktop-nav {
+    display: flex;
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 13px;
+    padding-left: 30%;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .bg-image {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    width: 100%;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    /* width: 98%; */
+  }
+
+  .lc-1 {
+    /* margin: auto; */
+    text-align: left;
+    width: 40%;
+    padding: 50px 0 0 20px;
+  }
+
+  .lc-1 h1 {
+    /* margin: auto; */
+    padding-bottom: 25px;
+    font-size: 40px;
+  }
+  
+  .lc-1 h4 {
+    /* margin: auto; */
+    text-align: left;
+  }
+
+  .button-row {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    text-align: left;
+    cursor: pointer;
+    gap: 10px;
+    padding-left: 18%;
+  }
+
+  .rc1-image {
+    background-image: url("../images/agent-v 1 (1).png");
+    width: 60vw;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    padding-right: 20px;
+  }
+  
+  .feature-body {
+    padding: 10% 0 8%;
+  }
+
+  .row2-cards {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    margin: auto;
+  }
+
+  .row3-cards {
+    width: 80%;
+	  margin: auto;
+	  display: flex;
+	  flex-direction: row;
+  }
+
+  .card4 {
+    width: 20%;
+    margin: auto;
+  }
+
+  .row4-cards {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+  }
+
+  .card5-img5 {
+    background-image: linear-gradient(to top,
+    #14131359,
+    #00000017,
+    #2d2a2a09),
+    url("../images/cover.png");
+    flex-direction: row;
+    width: 40%;
+    height: 400px;
+    margin: 3%;
+    background-repeat: no-repeat;
+  }
+
+  .fas {
+    font-size: 70px;
+    border-radius: 50%;
+    color: #00A0C1;
+    background-color: #fff;
+    position: relative;
+  }
+
+  .brand-items {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+  }
+
+  .img-brand {
+    width: 10.33%;
+  }
+
+  .subcribers {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 25px 0 0;
+  }
+
+  .subcribers h3 {
+    width: 30%;
+    text-align: left;
+  }
+
+  .placeholder {
+    width: 45%;
+  }
+
+  .row6-cards {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+    padding: 5% 0 0;
+    justify-content: center;
+  }
+
+  .card8 {
+  }
+
+  .consultant {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    line-height: 1;
+    padding: 0;
+  }
+
+  .consultant p {
+    width: 70%;
+  }
+
+  .btn8 {
+    width: 20%;
+	  padding: 0;
+	  border: none;
+	  border-radius: 3px;
+	  margin-bottom: 30px;
+    height: 5vh;
+  }
+
+  .row-infos {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+
+  .card-links,
+  .card-contact,
+  .row-infos h5 {
+    width: 60%;
+	  margin: auto;
+  }
+
+ .media-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  }
+
+ .media-logo i {
+	padding: 0 10px;
+  font-size: 24px;
   }
 }
