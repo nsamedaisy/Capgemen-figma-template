@@ -160,6 +160,7 @@ h6 p {
 	padding: 30% 0 15%;
 	text-align: center;
   background-color: #252B42;
+  border-bottom: 1px solid #e9e5e522;
 }
 
 /* 2nd feature */
@@ -175,13 +176,6 @@ h6 p {
   margin: auto;
   padding-bottom: 10%;
 }
-
-/* for desktop view  */
-
-/* .row2-cards {
-	display: flex;
-	flex-direction: row;
-} */
 
 .card1,
 .card3 {
@@ -349,6 +343,7 @@ h6 p {
 	padding: 70px 0 0px;
 	text-align: center;
   background-color: #252B42;
+  border-bottom: 1px solid #e9e5e522;
 }
 
 .brand-items {
@@ -433,7 +428,6 @@ input {
 
 .card-text {
 	text-align: center;
-  width: 65%;
   font-size: 20px;
   margin: auto;
 	line-height: 0;
@@ -446,7 +440,7 @@ input {
 	border-radius: 3px;
 	border: 1.5px solid #ffA62B;
 	color: #ffA62B;
-  width: 50%;
+  width: 70%;
 	margin: auto;
 }
 
@@ -456,7 +450,7 @@ input {
 	border-radius: 3px;
 	border: 1px solid #ffffff;
 	color: #ffffff;
-  width: 50%;
+  width: 70%;
 	margin: auto;
 	margin-top: 15px;
 }
@@ -489,12 +483,12 @@ input {
 }
 
 .consultant h2 {
-  width: 40%;
+  width: 65%;
   padding-bottom: 25px;
 }
 	
 .consultant p {
-  width: 40%;
+  width: 75%;
   padding-bottom: 35px;
 }
 
@@ -580,8 +574,9 @@ input {
 
   .navbar {
     background-color: #1a5783;
+    height: 0;
   }
-  
+
   .desktop-nav {
     display: flex;
     list-style-type: none;
@@ -596,29 +591,27 @@ input {
     background-image: url("../images/background.png");
     background-size: cover;
     width: 100%;
+    height: 75vh;
   }
 
   .row {
     display: flex;
     flex-direction: row;
-    /* width: 98%; */
+    margin-top: 15%;
   }
 
   .lc-1 {
-    /* margin: auto; */
     text-align: left;
-    width: 40%;
+    width: 40vw;
     padding: 50px 0 0 20px;
   }
 
   .lc-1 h1 {
-    /* margin: auto; */
     padding-bottom: 25px;
     font-size: 40px;
   }
   
   .lc-1 h4 {
-    /* margin: auto; */
     text-align: left;
   }
 
@@ -634,15 +627,23 @@ input {
 
   .rc1-image {
     background-image: url("../images/agent-v 1 (1).png");
-    width: 60vw;
-    height: 100vh;
-    position: relative;
+    width: 35vw;
+    height: 58vh;
+    background-position: bottom;
     background-size: cover;
-    padding-right: 20px;
+    padding-right: 25px;
   }
   
   .feature-body {
-    padding: 10% 0 8%;
+    padding: 5% 0;
+  }
+
+  .feature-body1 {
+    padding: 25px 0;
+  }
+
+  .feature2-text p {
+    padding-bottom: 5%;
   }
 
   .row2-cards {
@@ -679,7 +680,7 @@ input {
     #2d2a2a09),
     url("../images/cover.png");
     flex-direction: row;
-    width: 40%;
+    width: 100%;
     height: 400px;
     margin: 3%;
     background-repeat: no-repeat;
@@ -720,38 +721,66 @@ input {
     width: 45%;
   }
 
+  .contact-text {
+    width: 60%;
+    margin: auto;
+  }
+
   .row6-cards {
     display: flex;
     flex-direction: row;
     margin: auto;
     width: 80%;
-    padding: 5% 0 0;
+    align-items: center;
+    padding: 2% 0 0;
     justify-content: center;
   }
 
   .card8 {
+    height: 280px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-text {
+    text-align: center;
+    width: 100%;
+  }
+
+  .card7 {
+    height: 250px;
+    width: 240px;
+  }
+  .card8 .btn,
+  .card7 .btn {
+    width: 80%;
+    margin-bottom: 10px;
   }
 
   .consultant {
     display: flex;
     flex-direction: row;
-    width: 80%;
-    justify-content: space-between;
+    width: 70%;
     line-height: 1;
-    padding: 0;
   }
 
   .consultant p {
-    width: 70%;
+    width: 68%;
   }
 
   .btn8 {
-    width: 20%;
+    width: 13vw;
 	  padding: 0;
 	  border: none;
 	  border-radius: 3px;
-	  margin-bottom: 30px;
-    height: 5vh;
+    height: 6.5vh;
+    margin: auto;
+  }
+
+  .footer-body {
+    padding: 0;
   }
 
   .row-infos {
@@ -767,15 +796,31 @@ input {
 	  margin: auto;
   }
 
+  .contact-icon {
+    width: 60%;
+  }
+
+  .card h5 {
+    line-height: 2;
+  }
+
  .media-text {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   text-align: left;
+  padding: 0;
+  margin: auto;
+  }
+
+  .media-text p {
+    width: 100%;
+    line-height: 0.7;
   }
 
  .media-logo i {
 	padding: 0 10px;
   font-size: 24px;
+  padding-top: 20px;
   }
 }
