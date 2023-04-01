@@ -140,7 +140,7 @@ h6 p {
 	border-radius: 20px;
 	padding: 12px 36px;
 	border: solid 1px #ffffff;
-	background-color: #08436d;
+	background-color: #1a5783;
 	margin-bottom: 20px;
 }
 
@@ -437,7 +437,6 @@ input {
   font-size: 20px;
   margin: auto;
 	line-height: 0;
-
 }
 
 .card7 .btn {
@@ -581,6 +580,7 @@ input {
   .navbar {
     background-color: #1a5783;
     height: 0;
+    padding-bottom: 90px;
   }
 
   .desktop-nav {
@@ -597,38 +597,53 @@ input {
     background-image: url("../images/background.png");
     background-size: cover;
     width: 100%;
-    height: 75vh;
   }
 
   .row {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 80%;
+    gap: 0;
+    margin: auto;
   }
 
   .lc-1 {
+    display: flex;
+    flex-direction: column;
     text-align: left;
-    width: 40vw;
-    padding: 50px 0 0 20px;
-    margin-top: 15%;
+    justify-content: flex-end;
+    height: fit-content;
+    line-height: 1.5;
   }
 
   .lc-1 h1 {
-    padding-bottom: 25px;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 0;
+    z-index: 1;
+    text-align: left;
+    width: 100%;
+    margin-left: 100px;
+
   }
   
   .lc-1 h4 {
-    text-align: left;
+    margin: 0 auto;
+    padding: auto 0;
+    width: 80%;
+    margin-left: 100px;
   }
+  
 
   .button-row {
     display: flex;
     flex-direction: row;
-    margin: auto;
-    text-align: left;
-    cursor: pointer;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
-    padding-left: 18%;
   }
 
   .mobile-agent {
@@ -636,11 +651,12 @@ input {
   }
 
   .desktop-agent {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    justify-content: flex-end;
+    display: flex;
+    justify-content: center;
+    height: 500px;
   }
-  
+
   .feature-body {
     padding: 5% 0;
   }
