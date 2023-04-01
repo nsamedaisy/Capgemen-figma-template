@@ -19,26 +19,6 @@ nav h5 {
   display: none;
 }
 
-.navbar {
-  background-color: #252B42;
-  width: 100%;
-	margin: auto;
-}
-
-.nav-icons {
-	display: flex;
-	align-items: center;
-	font-size: 24px;
-  flex-direction: row;
-	font-weight: 700;
-}
-
-.nav-icons li {
-  list-style-type: none;
-  padding: 0 16px;
-  font-size: 16px;
-  font-weight: 0;
-}
 
 .mobile-nav {
   width: 30%;
