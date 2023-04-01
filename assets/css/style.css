@@ -10,6 +10,7 @@ nav {
   justify-content: space-between;
   padding: 0 20px;
 }
+
 nav h5 {
   font-size: 20px;
 }
@@ -31,6 +32,7 @@ nav h5 {
   flex-direction: row;
 	font-weight: 700;
 }
+
 .nav-icons li {
   list-style-type: none;
   padding: 0 16px;
@@ -147,11 +149,14 @@ h6 p {
 	transition: 0.5s;
 }
 
-.rc1-image {
-  background-image: url("../images/agent-v 1 (2).png");
-  background-position: bottom;
+.desktop-agent {
+  display: none;
+}
+
+.mobile-agent {
   background-repeat: no-repeat;
-  height: 75vh;
+  margin: auto;
+  background-size: cover;
 }
 
 /* all features */
@@ -160,7 +165,7 @@ h6 p {
 	padding: 30% 0 15%;
 	text-align: center;
   background-color: #252B42;
-  border-bottom: 1px solid #e9e5e522;
+  border-bottom: 1px solid #d7d5d513;
 }
 
 /* 2nd feature */
@@ -187,6 +192,7 @@ h6 p {
 	margin: auto;
 	margin-bottom: 24px;
 }
+
 .card1 i,
 .card3 i {
   color: #00A0C1;
@@ -597,13 +603,13 @@ input {
   .row {
     display: flex;
     flex-direction: row;
-    margin-top: 15%;
   }
 
   .lc-1 {
     text-align: left;
     width: 40vw;
     padding: 50px 0 0 20px;
+    margin-top: 15%;
   }
 
   .lc-1 h1 {
@@ -625,13 +631,14 @@ input {
     padding-left: 18%;
   }
 
-  .rc1-image {
-    background-image: url("../images/agent-v 1 (1).png");
-    width: 35vw;
-    height: 58vh;
-    background-position: bottom;
+  .mobile-agent {
+    display: none;
+  }
+
+  .desktop-agent {
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    padding-right: 25px;
   }
   
   .feature-body {
