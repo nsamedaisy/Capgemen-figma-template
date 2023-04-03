@@ -1,7 +1,7 @@
 body {
-	color: #ffffff;
-	font-family: Montserrat;
-	margin: auto;
+  color: #fff;
+  font-family: Montserrat;
+  margin: auto;
 }
 
 nav {
@@ -9,6 +9,11 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   padding: 0 21px;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 nav h5 {
@@ -20,17 +25,17 @@ nav h5 {
 }
 
 .navbar {
-  background-color: #252B42;
+  background-color: #252b42;
   width: 100%;
-	margin: auto;
+  margin: auto;
 }
 
 .nav-icons {
-	display: flex;
-	align-items: center;
-	font-size: 24px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
   flex-direction: row;
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .nav-icons li {
@@ -42,16 +47,16 @@ nav h5 {
 
 .mobile-nav {
   width: 30%;
-	margin: auto;
-	font-size: 25px;
-	font-weight: 700;
-	line-height: 2.5;
+  margin: auto;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 2.5;
   list-style-type: none;
   padding: 12% 0;
 }
 
 a {
-	color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -63,90 +68,85 @@ a {
 }
 
 h2 {
-	font-size: 40px;
-	font-weight: 700;
+  font-size: 40px;
+  font-weight: 700;
 }
 
 h3 {
-	font-size: 24px;
+  font-size: 24px;
 }
 
 h4 {
-	font-size: 20px;
-	font-weight: 400;
-}
-
-h5 {
-	font-size: 16px;
-	font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 h6 p {
-	font-size: 14px;
-	font-weight: 550;
+  font-size: 14px;
+  font-weight: 550;
 }
 
 .bg-image {
-	background-image: url("../images/cover\ \(2\).jpg");
-	background-position: bottom;
-	background-size: cover;
-	display: flex;
-	flex-direction: column;
-	width: 100%;
+  background-image: url("../images/cover\ \(2\).jpg");
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .row {
-	display: flex;
-	flex-direction: column;
-	height: fit-content;
-	gap: 20px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  gap: 20px;
 }
 
 .lc-1 {
-	text-align: center;
-	padding: 60px 0 0px;
+  text-align: center;
+  padding: 60px 0 0;
 }
 
 .lc-1 h1 {
-	width: 70%;
-	margin: auto;
-	padding-bottom: 25px;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 25px;
 }
 
 .lc-1 h4 {
-	width: 60%;
-	margin: auto;
-	padding-bottom: 30px;
+  width: 60%;
+  margin: auto;
+  padding-bottom: 30px;
 }
 
 .button-row {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
 }
 
 .btn1 {
-	color: #ffffff;
-	background-color: #ffA62B;
-	border-radius: 20px;
-	border: none;
-	padding: 12px 36px;
-	margin-bottom: 20px;
+  color: #fff;
+  background-color: #ffa62b;
+  border-radius: 20px;
+  border: none;
+  padding: 12px 36px;
+  margin-bottom: 20px;
 }
 
 .btn2 {
-	color: #ffffff;
-	border-radius: 20px;
-	padding: 12px 36px;
-	border: solid 1px #ffffff;
-	background-color: #1a5783;
-	margin-bottom: 20px;
+  color: #fff;
+  border-radius: 20px;
+  padding: 12px 36px;
+  border: solid 1px #fff;
+  background-color: #1a5783;
+  margin-bottom: 20px;
 }
 
-.btn:after {
-	opacity: 1;
-	transition: 0.5s;
+.btn::after {
+  opacity: 1;
+  transition: 0.5s;
 }
 
 .desktop-agent {
@@ -162,9 +162,9 @@ h6 p {
 /* all features */
 
 .feature-body {
-	padding: 30% 0 15%;
-	text-align: center;
-  background-color: #252B42;
+  padding: 30% 0 15%;
+  text-align: center;
+  background-color: #252b42;
   border-bottom: 1px solid #d7d5d513;
 }
 
@@ -175,7 +175,7 @@ h6 p {
   margin: auto;
   padding-bottom: 25px;
 }
-	
+
 .feature2-text p {
   width: 60%;
   margin: auto;
@@ -185,33 +185,33 @@ h6 p {
 .card1,
 .card3 {
   width: 60%;
-	border-radius: 5px;
-	padding: 20px 35px 5px;
-	background-color: #ffffff;
-	color: black;
-	margin: auto;
-	margin-bottom: 24px;
+  border-radius: 5px;
+  padding: 20px 35px 5px;
+  background-color: #fff;
+  color: black;
+  margin: auto;
+  margin-bottom: 24px;
 }
 
 .card1 i,
 .card3 i {
-  color: #00A0C1;
-	font-size: 45px;
+  color: #00a0c1;
+  font-size: 45px;
 }
 
 .card2 {
   width: 60%;
-	border-radius: 5px;
-	padding: 20px 35px 5px;
-	background-color: #00A0C1;
-	color: black;
-	margin: auto;
-	margin-bottom: 24px;
+  border-radius: 5px;
+  padding: 20px 35px 5px;
+  background-color: #00a0c1;
+  color: black;
+  margin: auto;
+  margin-bottom: 24px;
 }
 
 .card2 i {
-  color: #ffffff;
-	font-size: 45px;
+  color: #fff;
+  font-size: 45px;
 }
 
 /* 3rd feature */
@@ -221,7 +221,7 @@ h6 p {
   margin: auto;
   padding-bottom: 25px;
 }
-	
+
 .feature3-text p {
   width: 60%;
   margin: auto;
@@ -231,28 +231,28 @@ h6 p {
 /* row3-cards */
 
 .row3-cards {
-	width: 55%;
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
+  width: 55%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 /* cards */
 
 .card4 {
-	background-color: #ffffff;
-	color: #212840;
-	text-align: left;
+  background-color: #fff;
+  color: #212840;
+  text-align: left;
   margin: 0;
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .card4 h5 {
   width: 55%;
   padding-left: 16px;
-	font-weight: 700;
+  font-weight: 700;
 }
 
 .card4 p {
@@ -267,7 +267,7 @@ h6 p {
   margin: auto;
   padding-bottom: 25px;
 }
-	
+
 .feature4-text p {
   width: 60%;
   margin: auto;
@@ -277,33 +277,36 @@ h6 p {
 /* row4-cards */
 
 .card5-img5 {
-  background-image: linear-gradient(to top,
-	#00000059,
-	#00000017,
-	#00000009),
-	url("../images/media\ bg-cover.jpg");
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
+  background-image:
+  linear-gradient(
+  to top,
+  #00000059,
+  #00000017,
+  #00000009
+  ),
+    url("../images/media\ bg-cover.jpg");
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   width: 80%;
-	margin: auto;
-	height: 400px;
-	margin-bottom: 25px;
+  margin: auto;
+  height: 400px;
+  margin-bottom: 25px;
 }
 
 .fas {
-	font-size: 70px;
-	margin: auto;
-	border-radius: 50%;
-	color: #00A0C1;
-	background-color: #fff;
+  font-size: 70px;
+  margin: auto;
+  border-radius: 50%;
+  color: #00a0c1;
+  background-color: #fff;
 }
 
 /* rc-4 */
 
 .rc4-content {
-	text-align: left;
-	padding: 40px 0;
+  text-align: left;
+  padding: 40px 0;
 }
 
 .rc4-content h2 {
@@ -311,7 +314,7 @@ h6 p {
   margin: auto;
   padding-bottom: 25px;
 }
-	
+
 .rc4-content p {
   width: 78%;
   margin: auto;
@@ -320,46 +323,46 @@ h6 p {
 
 .card6 {
   width: 80%;
-	text-align: left;
-	margin: auto;
-	margin-bottom: 30px;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 .icon-text {
-	display: flex;
-	align-items: center;
-	flex-direction: row;
-	gap: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
 }
 
 .text-sec {
-	display: flex;
-	gap: 3px;
-	flex-direction: column;
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
 }
 
 .text-sec h5,
 .text-sec h6 {
-	margin: 0;
+  margin: 0;
 }
 
 /* 5th feature */
 
 .feature-body1 {
-	padding: 70px 0 0px;
-	text-align: center;
-  background-color: #252B42;
+  padding: 70px 0 0px;
+  text-align: center;
+  background-color: #252b42;
   border-bottom: 1px solid #e9e5e522;
 }
 
 .brand-items {
   width: 70%;
-	margin: auto;
+  margin: auto;
   padding-bottom: 30px;
 }
 
 .img-brand {
-	padding: 28px 0;
+  padding: 28px 0;
   margin: auto;
   width: 45%;
   display: flex;
@@ -368,35 +371,34 @@ h6 p {
 
 .subcribers {
   width: 100%;
-	background-color: #16697A;
-	padding: 25px 0 35px;
+  background-color: #16697a;
+  padding: 25px 0 35px;
 }
 
 .subcribers h3 {
   width: 60%;
-	margin: auto;
+  margin: auto;
   padding-bottom: 30px;
 }
 
 .btn4,
 input {
-	padding: 18px 16px;
-	border-radius: 5px;
-	border: none;
-	margin-top: 30px;
-  margin: auto;
+  padding: 18px 16px;
+  border-radius: 5px;
+  border: none;
+  margin: 30px auto auto;
 }
 
 input {
-	background-color: #ffffff;
-	color: whitesmoke;
+  background-color: #fff;
+  color: whitesmoke;
 }
 
 .btn4 {
-	background-color: #ffA62B;
-	color: #ffffff;
-	cursor: pointer;
-	font-size: 14px;
+  background-color: #ffa62b;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 /* 6th feature */
@@ -406,7 +408,7 @@ input {
   margin: auto;
   padding-bottom: 20px;
 }
-	
+
 .contact-text p {
   width: 60%;
   margin: auto;
@@ -415,149 +417,149 @@ input {
 
 .row6-cards {
   width: 80%;
-	margin: auto;
+  margin: auto;
 }
 
 .card7 {
-	padding: 35px 40px;
-	background-color: #ffffff;
-	color: black;
-	margin-bottom: 25px;
+  padding: 35px 40px;
+  background-color: #ffffff;
+  color: black;
+  margin-bottom: 25px;
   align-items: center;
-} 
+}
 
 .card7 .img-brand {
   width: 25%;
-	color: #ffA62B;
-	margin: auto;
+  color: #ffa62b;
+  margin: auto;
 }
 
 .card-text {
-	text-align: center;
+  text-align: center;
   font-size: 20px;
   margin: auto;
-	line-height: 0;
+  line-height: 0;
 }
 
 .card7 .btn {
-	background-color: #ffffff;
-	padding: 12px;
-	border-radius: 3px;
-	border: 1.5px solid #ffA62B;
-	color: #ffA62B;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 3px;
+  border: 1.5px solid #ffa62b;
+  color: #ffa62b;
   width: 70%;
-	margin: auto;
+  margin: auto;
 }
 
 .card8 .btn6 {
-	background-color: #00A0C1;
-	padding: 12px;
-	border-radius: 3px;
-	border: 1px solid #ffffff;
-	color: #ffffff;
+  background-color: #00a0c1;
+  padding: 12px;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  color: #fff;
   width: 70%;
-	margin: auto;
-	margin-top: 15px;
+  margin: auto;
+  margin-top: 15px;
 }
 
 .card8 {
-	padding: 60px 40px;
-	background-color: #00A0C1;
-	margin-bottom: 22px;
+  padding: 60px 40px;
+  background-color: #00a0c1;
+  margin-bottom: 22px;
 }
 
 .card8 i {
   width: 21%;
-	height: 21%;
-	background-color: #00A0C1;
-	border: none;
-	color: #ffffff;
+  height: 21%;
+  background-color: #00a0c1;
+  border: none;
+  color: #fff;
 }
 
 /* 7th feature */
 
 .footer-body {
-	text-align: left;
-	padding: 40px 0;
-  background-color: #252B42;
+  text-align: left;
+  padding: 40px 0;
+  background-color: #252b42;
 }
 
 .consultant {
-	width: 60%;
-	margin: auto;
+  width: 60%;
+  margin: auto;
 }
 
 .consultant h2 {
   width: 65%;
   padding-bottom: 25px;
 }
-	
+
 .consultant p {
   width: 75%;
   padding-bottom: 35px;
 }
 
 .btn8 {
-	background-color: #ffA62B;
-	color: #ffffff;
+  background-color: #ffa62b;
+  color: #fff;
   width: 50%;
-	padding: 16px 20px;
-	border: none;
-	border-radius: 3px;
-	margin-bottom: 30px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 30px;
 }
 
 /* row infos */
 
 .row-infos {
-	background-color: #16697A;
-	padding: 20px 0;
+  background-color: #16697a;
+  padding: 20px 0;
 }
 
 .card {
   width: 60%;
-	margin: auto;
+  margin: auto;
 }
 
 .card-links a {
-	text-decoration: none;
-	flex-direction: column;
-	display: flex;
-	line-height: 2;
+  text-decoration: none;
+  flex-direction: column;
+  display: flex;
+  line-height: 2;
 }
 
 .card-contact i {
   width: 15%;
-	height: 15%;
-	color: #8EC2F2;
-	font-size: 24px;
-	background-color: #16697A;
+  height: 15%;
+  color: #8ec2f2;
+  font-size: 24px;
+  background-color: #16697a;
 }
 
 .contact-icon {
   display: flex;
-	align-items: center;
-	flex-direction: row;
-	gap: 12px;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
   width: 45%;
 }
 
 .media-text {
-	text-align: left;
-	padding: 15px 25px;
+  text-align: left;
+  padding: 15px 25px;
   width: 80%;
   margin: auto;
-	line-height: 1px;
+  line-height: 1px;
 }
 
 .media-logo i {
-	padding-top: 20px;
+  padding-top: 20px;
   font-size: 24px;
   width: 10%;
 }
 
 .fa-facebook-square {
-  color: #355BF5;
+  color: #355bf5;
 }
 
 .fa-instagram {
@@ -565,14 +567,14 @@ input {
 }
 
 .fa-twitter {
-  color: #00A0C1;
+  color: #00a0c1;
 }
 
 .fa-youtube-play {
   color: #f10f0f;
 }
 
-@media screen and (min-width:769px) {
+@media screen and (min-width: 769px) {
   .mobile-nav {
     display: none;
   }
@@ -592,7 +594,7 @@ input {
     align-items: center;
     gap: 20px;
   }
-  
+
   .bg-image {
     background-image: url("../images/background.png");
     background-size: cover;
@@ -627,16 +629,14 @@ input {
     text-align: left;
     width: 100%;
     margin-left: 100px;
-
   }
-  
+
   .lc-1 h4 {
     margin: 0 auto;
     padding: auto 0;
     width: 80%;
     margin-left: 100px;
   }
-  
 
   .button-row {
     display: flex;
@@ -651,7 +651,6 @@ input {
   }
 
   .desktop-agent {
-    justify-content: flex-end;
     display: flex;
     justify-content: center;
     height: 500px;
@@ -679,9 +678,9 @@ input {
 
   .row3-cards {
     width: 80%;
-	  margin: auto;
-	  display: flex;
-	  flex-direction: row;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
   }
 
   .card4 {
@@ -697,11 +696,14 @@ input {
   }
 
   .card5-img5 {
-    background-image: linear-gradient(to top,
+    background-image:
+    linear-gradient(
+    to top,
     #14131359,
     #00000017,
-    #2d2a2a09),
-    url("../images/cover.png");
+    #2d2a2a09
+    ),
+      url("../images/cover.png");
     flex-direction: row;
     width: 100%;
     height: 400px;
@@ -712,7 +714,7 @@ input {
   .fas {
     font-size: 70px;
     border-radius: 50%;
-    color: #00A0C1;
+    color: #00a0c1;
     background-color: #fff;
     position: relative;
   }
@@ -776,6 +778,7 @@ input {
     height: 250px;
     width: 240px;
   }
+
   .card8 .btn,
   .card7 .btn {
     width: 80%;
@@ -795,9 +798,9 @@ input {
 
   .btn8 {
     width: 13vw;
-	  padding: 0;
-	  border: none;
-	  border-radius: 3px;
+    padding: 0;
+    border: none;
+    border-radius: 3px;
     height: 6.5vh;
     margin: auto;
   }
@@ -816,7 +819,7 @@ input {
   .card-contact,
   .row-infos h5 {
     width: 60%;
-	  margin: auto;
+    margin: auto;
   }
 
   .contact-icon {
@@ -827,13 +830,13 @@ input {
     line-height: 2;
   }
 
- .media-text {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: left;
-  padding: 0;
-  margin: auto;
+  .media-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding: 0;
+    margin: auto;
   }
 
   .media-text p {
@@ -841,9 +844,9 @@ input {
     line-height: 0.7;
   }
 
- .media-logo i {
-	padding: 0 10px;
-  font-size: 25px;
-  padding-top: 20px;
+  .media-logo i {
+    padding: 0 10px;
+    font-size: 25px;
+    padding-top: 20px;
   }
 }
