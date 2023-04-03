@@ -1,6 +1,8 @@
 body {
   color: #fff;
-  font-family: Montserrat;
+  font-family:
+  Montserrat,
+  sans-serif;
   margin: auto;
 }
 
@@ -278,12 +280,12 @@ h6 p {
 
 .card5-img5 {
   background-image:
-  linear-gradient(
-  to top,
-  #00000059,
-  #00000017,
-  #00000009
-  ),
+    linear-gradient(
+      to top,
+      #00000059,
+      #00000017,
+      #00000009
+    ),
     url("../images/media\ bg-cover.jpg");
   display: flex;
   justify-content: center;
@@ -349,7 +351,7 @@ h6 p {
 /* 5th feature */
 
 .feature-body1 {
-  padding: 70px 0 0px;
+  padding: 70px 0 0;
   text-align: center;
   background-color: #252b42;
   border-bottom: 1px solid #e9e5e522;
@@ -422,7 +424,7 @@ input {
 
 .card7 {
   padding: 35px 40px;
-  background-color: #ffffff;
+  background-color: #fff;
   color: black;
   margin-bottom: 25px;
   align-items: center;
@@ -697,12 +699,12 @@ input {
 
   .card5-img5 {
     background-image:
-    linear-gradient(
-    to top,
-    #14131359,
-    #00000017,
-    #2d2a2a09
-    ),
+      linear-gradient(
+        to top,
+        #14131359,
+        #00000017,
+        #2d2a2a09
+      ),
       url("../images/cover.png");
     flex-direction: row;
     width: 100%;
